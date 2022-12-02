@@ -1,0 +1,152 @@
+<prediction>
+    <data_quality_report>
+        <order_details>
+            <columns>
+                <order_details_id>
+                    <description>unique id for each pizza in each order</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>48620</n_unique>
+                </order_details_id>
+                <order_id>
+                    <description>unique id for each order</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>21350</n_unique>
+                </order_id>
+                <pizza_id>
+                    <description>unique id for each pizza and size</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>91</n_unique>
+                </pizza_id>
+                <quantity>
+                    <description>number of pizzas ordered</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>4</n_unique>
+                </quantity>
+            </columns>
+            <desciption>csv with information about each order made in 2015</desciption>
+            <n_columns>4</n_columns>
+            <n_rows>48620</n_rows>
+        </order_details>
+        <orders>
+            <columns>
+                <date>
+                    <description>date of the order</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>358</n_unique>
+                </date>
+                <order_id>
+                    <description>unique id for each order</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>21350</n_unique>
+                </order_id>
+                <time>
+                    <description>exact time of the order</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>16382</n_unique>
+                </time>
+            </columns>
+            <desciption>csv with every order made in 2015</desciption>
+            <n_columns>3</n_columns>
+            <n_rows>21350</n_rows>
+        </orders>
+        <pizza_types>
+            <columns>
+                <category>
+                    <description>category of the pizza</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>4</n_unique>
+                </category>
+                <ingredients>
+                    <description>ingredients of the pizza</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>32</n_unique>
+                </ingredients>
+                <name>
+                    <description>full name of the pizza</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>32</n_unique>
+                </name>
+                <pizza_type_id>
+                    <description>unique id for each pizza without size</description>
+                    <n_nulls>0</n_nulls>
+                    <n_unique>32</n_unique>
+                </pizza_type_id>
+            </columns>
+            <desciption>csv with information about each pizza and its ingredients</desciption>
+            <n_columns>4</n_columns>
+            <n_rows>32</n_rows>
+        </pizza_types>
+    </data_quality_report>
+    <prediction>
+        <info>
+            <last_data_available>2015-06-05</last_data_available>
+            <prediction_week>2015-06-08</prediction_week>
+        </info>
+        <predicted_ingredients>
+            <Alfredo_Sauce>59</Alfredo_Sauce>
+            <Anchovies>96</Anchovies>
+            <Artichoke>426</Artichoke>
+            <Arugula>90</Arugula>
+            <Asiago_Cheese>193</Asiago_Cheese>
+            <Bacon>165</Bacon>
+            <Barbecue_Sauce>142</Barbecue_Sauce>
+            <Barbecued_Chicken>141</Barbecued_Chicken>
+            <Beef_Chuck_Roast>114</Beef_Chuck_Roast>
+            <Blue_Cheese>116</Blue_Cheese>
+            <Brie_Carre_Cheese>17</Brie_Carre_Cheese>
+            <Calabrese_Salami>122</Calabrese_Salami>
+            <Capocollo>387</Capocollo>
+            <Caramelized_Onions>16</Caramelized_Onions>
+            <Chicken>463</Chicken>
+            <Chipotle_Sauce>220</Chipotle_Sauce>
+            <Chorizo_Sausage>53</Chorizo_Sausage>
+            <Cilantro>219</Cilantro>
+            <Coarse_Sicilian_Salami>107</Coarse_Sicilian_Salami>
+            <Corn>223</Corn>
+            <Eggplant>59</Eggplant>
+            <Feta_Cheese>258</Feta_Cheese>
+            <Fontina_Cheese>184</Fontina_Cheese>
+            <Friggitello_Peppers>63</Friggitello_Peppers>
+            <Garlic>1418</Garlic>
+            <Genoa_Salami>94</Genoa_Salami>
+            <Goat_Cheese>203</Goat_Cheese>
+            <Gorgonzola_Piccante_Cheese>151</Gorgonzola_Piccante_Cheese>
+            <Gouda_Cheese>145</Gouda_Cheese>
+            <Green_Olives>317</Green_Olives>
+            <Green_Peppers>268</Green_Peppers>
+            <Italian_Sausage>53</Italian_Sausage>
+            <Jalapeno_Peppers>329</Jalapeno_Peppers>
+            <Kalamata_Olives>209</Kalamata_Olives>
+            <Luganega_Sausage>110</Luganega_Sausage>
+            <Mozzarella_Cheese>585</Mozzarella_Cheese>
+            <Mushrooms>450</Mushrooms>
+            <Nduja_Salami>65</Nduja_Salami>
+            <Onions>108</Onions>
+            <Oregano>106</Oregano>
+            <Pancetta>66</Pancetta>
+            <Parmigiano_Reggiano_Cheese>149</Parmigiano_Reggiano_Cheese>
+            <Pears>16</Pears>
+            <Peperoncini_verdi>121</Peperoncini_verdi>
+            <Pepperoni>449</Pepperoni>
+            <Pesto_Sauce>147</Pesto_Sauce>
+            <Pineapple>280</Pineapple>
+            <Plum_Tomatoes>65</Plum_Tomatoes>
+            <Prosciutto>16</Prosciutto>
+            <Prosciutto_di_San_Daniele>91</Prosciutto_di_San_Daniele>
+            <Provolone_Cheese>121</Provolone_Cheese>
+            <Red_Onions>974</Red_Onions>
+            <Red_Peppers>810</Red_Peppers>
+            <Ricotta_Cheese>147</Ricotta_Cheese>
+            <Romano_Cheese>119</Romano_Cheese>
+            <Sliced_Ham>141</Sliced_Ham>
+            <Smoked_Gouda_Cheese>117</Smoked_Gouda_Cheese>
+            <Soppressata_Salami>63</Soppressata_Salami>
+            <Spinach>495</Spinach>
+            <Sun-dried_Tomatoes>110</Sun-dried_Tomatoes>
+            <Thai_Sweet_Chilli_Sauce>160</Thai_Sweet_Chilli_Sauce>
+            <Thyme>16</Thyme>
+            <Tomatoes>1354</Tomatoes>
+            <Zucchini>134</Zucchini>
+        </predicted_ingredients>
+    </prediction>
+</prediction>
